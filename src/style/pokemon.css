@@ -1,0 +1,57 @@
+.pokemon_div{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(200px);
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.pokemon_name{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.main_div{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 50%;
+    margin: auto;
+}
+
+.search_bar_div{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.Search_bar_input{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-color: none;
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+}
+  
+
+.pikachu_gif{
+    width: 250px;
+    height: 100px;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
+}
+
+.wolf_gif{
+    width: 250px;
+    height: 100px;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
